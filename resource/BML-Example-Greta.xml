@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bml xmlns="http://www.mindmakers.org/projects/BML" character="Greta"
+    composition="blend" id="bml1">
+    <gesture end="2.529" id="p1_0" lexeme="beat_Ges_R_Pointing" start="-0.367">
+        <description priority="1" type="gretabml">
+            <reference>beat=beat_Ges_R_Pointing</reference>
+            <intensity>1.000</intensity>
+            <SPC.value>0.500</SPC.value>
+            <TMP.value>0.520</TMP.value>
+            <FLD.value>1.000</FLD.value>
+            <PWR.value>0.500</PWR.value>
+            <REP.value>-0.100</REP.value>
+            <OPN.value>0.000</OPN.value>
+            <TEN.value>0.000</TEN.value>
+        </description>
+    </gesture>
+    <head end="2.147" id="socHeadO" lexeme="Down" start="0.000">
+        <description priority="1" type="gretabml">
+            <reference>Down</reference>
+            <intensity>1.000</intensity>
+            <SPC.value>0.900</SPC.value>
+            <TMP.value>-0.200</TMP.value>
+            <FLD.value>0.500</FLD.value>
+            <PWR.value>0.000</PWR.value>
+            <REP.value>0.000</REP.value>
+            <OPN.value>0.000</OPN.value>
+            <TEN.value>0.000</TEN.value>
+        </description>
+    </head>
+    <face amount="0.500" end="2.147" id="socFacial0" start="0.000">
+        <lexeme lexeme="AU4"/>
+    </face>
+    <face amount="1.000" end="4.147" id="e1_0" start="0.000">
+        <lexeme lexeme="joy"/>
+    </face>
+    <face amount="1.000" end="1.363" id="xpa1_0" start="0.000">
+        <lexeme lexeme="Hstar"/>
+    </face>
+    <speech xmlns="" id="s1" language="english" start="0.0" text=""
+        type="SAPI4" voice="openmary">
+        <description level="1" type="gretabml">
+            <reference>tmp/from-fml-apml.pho</reference>
+        </description>
+        <tm id="tm1"/>
+				Bienvenue
+			<tm
+            id="tm2"/>
+				dans ma 
+			<tm
+            id="tm3"/>
+				cuisine.
+			<tm id="tm4"/>
+        <pitchaccent end="s1:tm3" id="xpa1" importance="0.8"
+            level="strong" start="s1:tm1" type="Hstar"/>
+        <boundary end="s1:tm4+0.5" id="bd1" start="s1:tm4" type="LL"/>
+    </speech>
+    <face amount="1.000" end="2.147" id="bd1_0" start="1.647">
+        <lexeme lexeme="frown"/>
+    </face>
+</bml>

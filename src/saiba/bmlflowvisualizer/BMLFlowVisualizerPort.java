@@ -61,18 +61,15 @@ public class BMLFlowVisualizerPort implements RealizerPort, BMLFeedbackListener 
 
 	private boolean firstTimestampKnown;
 
-	private BMLFlowVisualizerPort ref;
-
 	public BMLFlowVisualizerPort(RealizerPort port) {
 		realizerPort = port;
 		realizerPort.addListeners(this);
-		ref = this;
 		firstTimestampKnown = false;
 		try {
 			SwingUtilities.invokeAndWait(new Runnable() {
 				@Override
 				public void run() {
-					panel = new BMLFlowVisualization(ref, bmlBlocks);
+					panel = new BMLFlowVisualization(BMLFlowVisualizerPort.this, bmlBlocks);
 				}
 			});
 
