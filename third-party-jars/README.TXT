@@ -8,6 +8,7 @@ hamcrest: https://code.google.com/p/hamcrest/
 junit: http://junit.org/
 mockito: https://github.com/mockito/mockito
 fest: https://code.google.com/p/fest/
+HmiUtil, HmiXml, HmiTestUtil: http://asap-project.org 
 
 They are located in the jar and test/jar directories. Licenses for these libraries are available in the 
 third-party-jars/licenses directory.
