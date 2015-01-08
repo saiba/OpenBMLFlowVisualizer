@@ -367,7 +367,7 @@ public class BMLFlowVisualizerPort implements RealizerPort, BMLFeedbackListener 
 				}
 
 			} catch (XMLScanException e) {
-				// handle error at toplevel port
+				e.printStackTrace();
 			}
 		}
 	}
