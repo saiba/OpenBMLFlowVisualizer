@@ -324,7 +324,7 @@ public class BMLFlowVisualizerPort implements RealizerPort, BMLFeedbackListener 
 	 */
 	private void presentBML(BMLInformation info, long time) {
 
-		BehaviourBlock bb = new BehaviourBlock(new BMLABMLBehaviorAttributes());
+		BehaviourBlock bb = new BehaviourBlock(false, new BMLABMLBehaviorAttributes());
 		synchronized (bmlBlocks) {
 			try {
 				bb.readXML(info.getInformation());
